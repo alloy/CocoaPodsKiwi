@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91F7E827D93E41AFBB37CB1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77082D5B0B4644C1AEC43A4B /* libPods.a */; };
+		51E389DF1527E05C00B07229 /* Pods-test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 51E389DE1527E05C00B07229 /* Pods-test.xcconfig */; };
+		51E389E21527E08900B07229 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E389E11527E08900B07229 /* libPods-test.a */; };
 		9FB138321527DBD80075DB1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB138311527DBD80075DB1F /* UIKit.framework */; };
 		9FB138341527DBD80075DB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB138331527DBD80075DB1F /* Foundation.framework */; };
 		9FB138361527DBD80075DB1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB138351527DBD80075DB1F /* CoreGraphics.framework */; };
@@ -23,7 +24,6 @@
 		9FB138581527DBD80075DB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB138331527DBD80075DB1F /* Foundation.framework */; };
 		9FB138601527DBD80075DB1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1385E1527DBD80075DB1F /* InfoPlist.strings */; };
 		9FB138631527DBD80075DB1F /* CocoaPodKiwiSpecsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB138621527DBD80075DB1F /* CocoaPodKiwiSpecsTests.m */; };
-		F0FD15CFB8E343EFAC990611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77082D5B0B4644C1AEC43A4B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77082D5B0B4644C1AEC43A4B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E389DE1527E05C00B07229 /* Pods-test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = "<group>"; };
+		51E389E11527E08900B07229 /* libPods-test.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-test.a"; path = "Pods/build/Release-iphoneos/libPods-test.a"; sourceTree = "<group>"; };
 		9FB1382D1527DBD80075DB1F /* CocoaPodKiwiSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodKiwiSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB138311527DBD80075DB1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9FB138331527DBD80075DB1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +61,6 @@
 		9FB1385F1527DBD80075DB1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FB138611527DBD80075DB1F /* CocoaPodKiwiSpecsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodKiwiSpecsTests.h; sourceTree = "<group>"; };
 		9FB138621527DBD80075DB1F /* CocoaPodKiwiSpecsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodKiwiSpecsTests.m; sourceTree = "<group>"; };
-		CA17049BB0AA427E89EC44B2 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,6 @@
 				9FB138321527DBD80075DB1F /* UIKit.framework in Frameworks */,
 				9FB138341527DBD80075DB1F /* Foundation.framework in Frameworks */,
 				9FB138361527DBD80075DB1F /* CoreGraphics.framework in Frameworks */,
-				F0FD15CFB8E343EFAC990611 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E389E21527E08900B07229 /* libPods-test.a in Frameworks */,
 				9FB138561527DBD80075DB1F /* SenTestingKit.framework in Frameworks */,
 				9FB138571527DBD80075DB1F /* UIKit.framework in Frameworks */,
 				9FB138581527DBD80075DB1F /* Foundation.framework in Frameworks */,
-				91F7E827D93E41AFBB37CB1D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +95,7 @@
 				9FB1385B1527DBD80075DB1F /* CocoaPodKiwiSpecsTests */,
 				9FB138301527DBD80075DB1F /* Frameworks */,
 				9FB1382E1527DBD80075DB1F /* Products */,
-				CA17049BB0AA427E89EC44B2 /* Pods.xcconfig */,
+				51E389DE1527E05C00B07229 /* Pods-test.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,11 +111,11 @@
 		9FB138301527DBD80075DB1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51E389E11527E08900B07229 /* libPods-test.a */,
 				9FB138311527DBD80075DB1F /* UIKit.framework */,
 				9FB138331527DBD80075DB1F /* Foundation.framework */,
 				9FB138351527DBD80075DB1F /* CoreGraphics.framework */,
 				9FB138551527DBD80075DB1F /* SenTestingKit.framework */,
-				77082D5B0B4644C1AEC43A4B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -251,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB138601527DBD80075DB1F /* InfoPlist.strings in Resources */,
+				51E389DF1527E05C00B07229 /* Pods-test.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +415,6 @@
 		};
 		9FB138681527DBD80075DB1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA17049BB0AA427E89EC44B2 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -430,7 +429,7 @@
 		};
 		9FB1386A1527DBD80075DB1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA17049BB0AA427E89EC44B2 /* Pods.xcconfig */;
+			baseConfigurationReference = 51E389DE1527E05C00B07229 /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaPodKiwiSpecs.app/CocoaPodKiwiSpecs";
 				DSTROOT = /tmp/xcodeproj.dst;
@@ -451,7 +450,7 @@
 		};
 		9FB1386B1527DBD80075DB1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA17049BB0AA427E89EC44B2 /* Pods.xcconfig */;
+			baseConfigurationReference = 51E389DE1527E05C00B07229 /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaPodKiwiSpecs.app/CocoaPodKiwiSpecs";
 				DSTROOT = /tmp/xcodeproj.dst;
